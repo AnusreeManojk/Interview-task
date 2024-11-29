@@ -806,3 +806,17 @@ list-style: none;
     right: 0;
     top: -25px;
 }
+.absolute-content{
+width: 320px;
+height: 273px;
+gap: 0px;
+border-radius: 10px ;
+opacity: 0px;
+position: absolute;
+right: 150px;
+top: 20px;
+background: #FFFFFFE5;
+backdrop-filter: blur(4px)
+
+
+}
