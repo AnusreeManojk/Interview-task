@@ -807,16 +807,60 @@ list-style: none;
     top: -25px;
 }
 .absolute-content{
-width: 320px;
-height: 273px;
+width: 360px;
+height: 303px;
 gap: 0px;
 border-radius: 10px ;
 opacity: 0px;
 position: absolute;
 right: 150px;
-top: 20px;
+top: 40px;
 background: #FFFFFFE5;
-backdrop-filter: blur(4px)
+backdrop-filter: blur(4px);
+padding: 20px;
 
+}
+.absolute-head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.disc{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.disc p{
+    font-size: 12px;
+    color: #414241;
+}
+.absolute-input{
+    margin-top: 10px;
+    width:323px;
+height:46px;
+gap: 7px;
+opacity: 0px;
+display: flex;
+align-items:center ;
+
+
+
+}
+.absolute-input input{
+    background: transparent;
+    border: none;
+    height: 46px;
+    width: 220px;
+    border: 0.5px solid #cfcecb;
+    padding: 0 0 10px 0;
+}
+.absolute-input button{
+    height: 46px;
+    background-color: #036F28;
+    color: #fff;
+    width: 106px;
+    border-radius: 5px;
+    border: none;
 
 }
