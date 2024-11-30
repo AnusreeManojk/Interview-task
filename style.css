@@ -106,7 +106,7 @@ h6 {
     gap: 0px;
     border-radius: 0px 0px 0px 160px;
     opacity: 0px;
-
+   
 }
 
 .right-head {
@@ -115,6 +115,7 @@ h6 {
     margin-left: 70px;
     display: flex;
     flex-direction: column;
+    margin-left: 150px;
 }
 
 .top-right {
@@ -182,17 +183,17 @@ h6 {
 }
 
 .top-bottom {
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 5px;
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     height: 36px;
     align-items: center;
-
+margin-top: 5px;
 }
 
 nav span {
@@ -216,6 +217,8 @@ nav span {
 
 .nav-last button {
     font-size: 10px;
+    background: transparent;
+    border: none;
 }
 
 .banner {
